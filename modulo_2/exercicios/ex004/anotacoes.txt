@@ -1,0 +1,75 @@
+Video 24
+https://www.youtube.com/watch?v=rXF1okX0v9E&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=24&ab_channel=CursoemV%C3%ADdeo
+
+Pra ver o modelo de caixa: abre o navegador, aperta F12, selecionar aba Elements.
+
+Para separar o modelo de caixa em outra aba: 3 pontinhos, Dock Side, Undock into separate window.
+
+(pra fechar o a aba console no navegador, é só apertar Esc)
+
+User Agent = navegador
+
+Da pra fazer testes pelo navegador sem alterar o original
+
+Padding é meio invisivel, é melhor mexer pelo navegador e atualizar na IDE. por hora vou deixar esse explicação
+
+Ordem do Padding é horária: top, right, bottom, left 
+
+VÍDEO 25
+
+Mexer em margin para ajustar posicionamento
+
+Pra colocar um elemento no meio da tela usar: margin: auto;
+
+Tips:
+{
+border-width: 10px;
+border-style: solid;
+border-color: darkcyan;
+}
+
+border: 10px solid darkcyan;
+__________________________
+
+{
+padding-left: 4px;
+padding-top: 4px;
+padding-right: 4px;
+padding-bottom: 4px;
+}
+
+padding: 4px;
+__________________________
+
+{
+margin-top: 20px;
+margin-right: 10px;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+margin 20px 10px;
+// da pra colocar assim tbm: margin 20px auto
+o topo e o bottom com 20px e left e right no centro.
+__________________________
+
+{
+outline-width: 10px;
+outline-style: dashed;
+outline-color: salmon;
+}
+
+outline: 10px dashed salmon;
+__________________________
+
+Da pra ver se a propriedade é inline ou block. F12, Filter, pesquisar: Display.
+É possível alterar a propriedade. Ex:
+a é inline
+a{
+    Display: block;
+}
+
+h1 é block
+h1{
+    display: inline;
+}

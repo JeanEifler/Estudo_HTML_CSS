@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir este site em dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/foto_p.png" type="image/png"> <!--tamanho da imagem foto_m.png em px-->
+        <source media="(max-width: 1030px)" srcset="imagens/foto_m.png" type="image/png"> <!--tamanho da imagem foto_g.png em px-->
+        <img src="imagens/foto_g.png" alt="Imagem flexível">
+        <!---
+        <source media="(min-width: 1030px)" srcset="imagens/foto_g.png" type="image/png">
+        <source media="(min-width: 730px)" srcset="imagens/foto_m.png" type="image/png">
+        <img src="imagens/foto_p.png" alt="Imagem flexível">
+        -->
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio em html5</p>
+    <audio preload="metadata" controls>
+        <source src="midia/Space Adventure - The Green Orbs.mp3" type="audio/mp3">
+        seu navegador nao suporta mp3
+    </audio>
+</body>
+</html>
